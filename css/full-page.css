@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px){
+/* 
+.mainone {
+     display: flex;
+   flex-direction: column;}
+   .row-one, .row-two {
+    display: flex;
+    flex-direction: row;
+}
+*/
+.mainone {
+  display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-one,.row-two {
+    display: flex;
+    flex-direction: row;
+}
+.row-item-two {
+    position: relative;
+    bottom: 5px;
+}
+.row-item-two-item {
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+}
+.row-item-two-erste{
+    position: relative;
+    bottom: 10px;
+    left: 28px;
+}
+.row-item-three-mvi{
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+.row-item-three-right{
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+}
+}

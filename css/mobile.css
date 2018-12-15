@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px){
+    /* 
+.mainone {
+     display: flex;
+   flex-direction: row;}
+   .row-one, .row-two {
+    display: flex;
+    flex-direction: column;
+}
+*/
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainone {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     }
+.row-one {
+    display: flex;
+    flex-direction: column;
+}
+.row-two{
+ 
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+  
+  }
